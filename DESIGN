@@ -1,0 +1,10 @@
+While starter.py might seem repetitive in that uimage and bimage have many of the same functions,
+this was the only way for me to get the code to realize when the user and the maze were interaction
+(such as when a user hits the wall)
+
+In riddles.py / riddle_noClass.py, I used tkinter because originally, I was going to code my whole project
+using tkinter. The riddles were the first things I coded, before I realized that pygame would be good to use.
+
+For maze_game.py, please read through comments. As a quick summary, I first create my objects and then
+in a while loop which runs while the user has not won (ie reached the bottom right hand corner) the user
+is able to move.
